@@ -45,10 +45,10 @@ This web app allows you to **filter** and **sort** a list of students based on t
 
 | S.No | Name        | English | Maths | Science | Social Science |
 |------|-------------|---------|-------|---------|----------------|
-| 1    | John Doe    | 85      | 90    | 78      | 88             |
-| 2    | Jane Smith  | 92      | 84    | 88      | 91             |
-| 3    | Emily Brown | 75      | 65    | 70      | 80             |
-| 4    | Michael Lee | 89      | 76    | 90      | 84             |
+| 1    | Janu        | 50      | 86    | 77      | 89             |
+| 2    | Tara        | 75      | 96    | 91      | 90             |
+| 3    | Glen        | 35      | 68    | 77      | 100            |
+| 4    | Zara        | 80      | 85    | 67      | 96             |
 
 ---
 ## 💬 Feedback & Contributions
