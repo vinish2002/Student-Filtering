@@ -35,8 +35,9 @@ This web app allows you to **filter** and **sort** a list of students based on t
 
 ---
 
-### Access it Here:
-- **https://vinish2002.github.io/Student-Filtering/**
+## Try it Out! 🌐
+
+[Try the Student Details Filtering and Sorting]([https://dummy-link.com](https://vinish2002.github.io/Student-Filtering/)) 
 
 ---
 
