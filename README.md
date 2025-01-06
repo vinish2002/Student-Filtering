@@ -35,6 +35,11 @@ This web app allows you to **filter** and **sort** a list of students based on t
 
 ---
 
+### Access it Here:
+- **https://vinish2002.github.io/Student-Filtering/**
+- 
+---
+
 ## Example Data 📋
 
 | S.No | Name        | English | Maths | Science | Social Science |
@@ -43,11 +48,6 @@ This web app allows you to **filter** and **sort** a list of students based on t
 | 2    | Jane Smith  | 92      | 84    | 88      | 91             |
 | 3    | Emily Brown | 75      | 65    | 70      | 80             |
 | 4    | Michael Lee | 89      | 76    | 90      | 84             |
-
----
-
-## Access it Here:
-- **https://vinish2002.github.io/Student-Filtering/**:
 
 ---
 ## 💬 Feedback & Contributions
