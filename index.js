@@ -49,15 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if (filteredStudents.length === 0) {
             showPopup();
         } else {
-            formatTable(filteredStudents);
+            renderTable(filteredStudents);
         }
     });
 
     clearBtn.addEventListener('click', () => {
-        formatTable(students);
+        renderTable(students);
     });
 
-    function formatTable(data) {
+    function renderTable(data) {
         studentTable.innerHTML = '';
         data.forEach(student => {
             const row = studentTable.insertRow();
@@ -92,9 +92,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     return a[column] < b[column] ? 1 : -1;
                 }
             });
-            formatTable(students);
+            renderTable(students);
         });
     });
 
-    formatTable(students);
+    renderTable(students);
 });
