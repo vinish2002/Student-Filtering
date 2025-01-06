@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>FiltASort</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading bg">
+            <h1>Student Details Filtering and Sorting</h1>
+        </div>
+        <div class="detail-cont bg">
+            <div class="filter-cont">
+                <select id="subject">
+                    <option value="English">English</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="Social Science">Social Science</option>
+                </select>
+                <div class="radio-btn">
+                    <input type="radio" id="above" name="filter" value="above">
+                    <label for="above">Above</label>
+                    <input type="radio" id="below" name="filter" value="below">
+                    <label for="below">Below</label>
+                    <input type="radio" id="between" name="filter" value="between">
+                    <label for="between">Between</label>
+                </div>
+                <input type="number" id="val1" placeholder="Value 1" class="inputVal valInp1">
+                <input type="number" id="val2" placeholder="Value 2" class="inputVal valInp2">
+                <div class="filter-buttons">
+                    <button id="filterBtn">Filter</button>
+                    <button id="clearBtn">Clear</button>
+                </div>
+            </div>
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th data-column="sno" class="bord-radL">S.No</th>
+                        <th data-column="name">Name</th>
+                        <th data-column="english">English</th>
+                        <th data-column="maths">Maths</th>
+                        <th data-column="science">Science</th>
+                        <th data-column="socialScience" class="bord-radR">Social Science</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Janu</td>
+                        <td>50</td>
+                        <td>86</td>
+                        <td>77</td>
+                        <td>89</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tara</td>
+                        <td>75</td>
+                        <td>96</td>
+                        <td>91</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Glen</td>
+                        <td>35</td>
+                        <td>68</td>
+                        <td>77</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Zara</td>
+                        <td>80</td>
+                        <td>85</td>
+                        <td>67</td>
+                        <td>96</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="pop-up-bg" id="overlay"></div>
+    <div class="popup" id="popup">
+        <p>No record matches!!</p>
+        <button id="closePopup">Close</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
