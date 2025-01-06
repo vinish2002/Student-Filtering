@@ -40,6 +40,13 @@ This web app allows you to **filter** and **sort** a list of students based on t
 [Try the Student Details Filtering and Sorting]([https://dummy-link.com](https://vinish2002.github.io/Student-Filtering/)) 
 
 ---
+## Image Preview 📸
+
+Here's a preview of what the app looks like:
+![1studSort](https://github.com/user-attachments/assets/b34aa2b1-2c6e-41a6-ba8d-63d17f89d335)
+
+
+---
 
 ## Example Data 📋
 
