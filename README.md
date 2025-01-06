@@ -1,9 +1,9 @@
 # Student Details Filtering and Sorting 🎓📊
 ### Overview
-### This web app lets you filter and sort student data based on their scores in English, Maths, Science, and Social Science. Built with HTML, CSS, and JavaScript, it's simple to use and dynamic! 😎
+#### This web app lets you filter and sort student data based on their scores in English, Maths, Science, and Social Science. Built with HTML, CSS, and JavaScript, it's simple to use and dynamic! 😎
 
 ## Features 🌟
-### Subject Selection: Choose a subject (English, Maths, Science, Social Science) from a dropdown.
+#### Subject Selection: Choose a subject (English, Maths, Science, Social Science) from a dropdown.
 ### Filter Options:
 ### Above 📈: Filter marks greater than a value.
 ### Below 📉: Filter marks less than a value.
