@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const closePopup = document.getElementById('closePopup');
 
     let students = [
-        { sno: 1, name: 'Janu', english: 50, maths: 86, science: 77, socialScience: 89 },
-        { sno: 2, name: 'Tara', english: 75, maths: 96, science: 91, socialScience: 90 },
-        { sno: 3, name: 'Glen', english: 35, maths: 68, science: 77, socialScience: 100 },
-        { sno: 4, name: 'Zara', english: 80, maths: 85, science: 67, socialScience: 96 }
+        { sno: 1, name: 'Janu', english: 50, maths: 86, science: 77, social: 89 },
+        { sno: 2, name: 'Tara', english: 75, maths: 96, science: 91, social: 90 },
+        { sno: 3, name: 'Glen', english: 35, maths: 68, science: 77, social: 100 },
+        { sno: 4, name: 'Zara', english: 80, maths: 85, science: 67, social: 96 }
     ];
 
     filtRad.forEach(radio => {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             row.insertCell(2).innerText = student.english;
             row.insertCell(3).innerText = student.maths;
             row.insertCell(4).innerText = student.science;
-            row.insertCell(5).innerText = student.socialScience;
+            row.insertCell(5).innerText = student.social;
         });
     }
 
